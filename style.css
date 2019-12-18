@@ -1,5 +1,5 @@
 body {
-    background: url("images/4235929-cool-background.jpg");
+    background: url("images/182529.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -12,6 +12,7 @@ body {
     flex-wrap: wrap;
     margin-top: 100px;
     padding: 40px 10px 40px 10px;
+    border: solid 2px white;
 }
 
 .jumbotron {
