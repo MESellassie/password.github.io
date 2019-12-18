@@ -1,7 +1,17 @@
+body {
+    background: url("images/4235929-cool-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 .navbar.navbar-light.bg-light {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 40px 10px 40px 10px;
 }
 
 .jumbotron {
