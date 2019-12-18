@@ -1,33 +1,9 @@
-.row {
-    background: #dcdcdc;
-    width: 100%;
+.navbar.navbar-light.bg-light {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.content {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    margin-right:10px;
-    background: white;
-    padding: 40px 0px 40px 100px;
-    width: 100%;
-
-}
-
-.btn.btn-secondary.btn-lg.rounded-pill {
-background: lightgray;
-border-color: lightgray;
-float: right;
-clear: both;
-}
-
-input[type=text] {
-border: 2px dashed lightgray;
-border-radius: 4px;
-padding: 60px 0px 60px 0px;
-width: 100%;
-}
-
-h2 {
-    margin-top: 10px;
-    text-align: center;
+.jumbotron {
+    margin: 10px 60px 10px 60px;
 }
