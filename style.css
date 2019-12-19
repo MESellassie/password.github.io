@@ -1,20 +1,26 @@
-body {
-    background: url("images/182529.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: lightgray;
+    padding: 20px;
+    width: 100%;
 }
 
-.navbar.navbar-light.bg-light {
+#display {
+    width: 100%;
+}
+
+#length {
+    display: inline-block;
+    width: 100px;
+}
+
+#slider {
+    width: 100%;
+}
+
+.nav {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    padding: 40px 10px 40px 10px;
-    border: solid 2px white;
-}
-
-.jumbotron {
-    margin: 10px 60px 10px 60px;
+    
 }
