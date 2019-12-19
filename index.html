@@ -30,35 +30,42 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <h2>Password Generator</h2>
         </nav>
-    </div>
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row">
+            <div class="row">
 
-            <div class="col-lg-10 col-sm-12 mx-auto">
+                <div class="col-lg-10 col-sm-12 mx-auto">
 
-                <div class="jumbotron content shadow rounded">
+                    <div class="jumbotron content shadow rounded">
 
-                    <h4>Generate a Password</h4>
-                    <br />
-                    <input type="text" id="display">
-                    <br />
-                    <input type="range" min="8" max="128" name="slider" id="slider">
-                    <br />
-                
-                    <div class="buttons">
-                        <button type="button" class="btn btn-info" button onClick="generate()">Generate</button type="button" class="btn btn-info" button>
-                        <button type="button" class="btn btn-secondary" button onClick="copyPassword()">Copy to Clipboard</button type="button" class="btn btn-secondary" button>
-                    </div>
-                    
-                    <div id="length">
+                        <h4>Generate a Password</h4>
+                        <br />
+                        <input type="text" id="display">
+                        <br />
+                        <input type="range" min="8" max="128" name="slider" id="slider">
+                        <br />
 
+                        <div class="buttons">
+                            <button type="button" class="btn btn-info" button onClick="generate()">Generate</button
+                                type="button" class="btn btn-info" button>
+                            <button type="button" class="btn btn-secondary" button onClick="copyPassword()">Copy to
+                                Clipboard</button type="button" class="btn btn-secondary" button>
+                        </div>
+
+                        <div id="length">
+
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
+
+    </div>
+
+    <div class="sticky-footer">
+        Copyright MESellassie &#169;
     </div>
 
     <script src="script.js"></script>
